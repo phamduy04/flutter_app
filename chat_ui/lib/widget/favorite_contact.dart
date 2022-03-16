@@ -37,6 +37,8 @@ class FavoriteContact extends StatelessWidget {
           ),
           Container(
             height: 120,
+            //width: double.infinity,
+            width: MediaQuery.of(context).size.width,
             child: ListView.builder(
                 padding: const EdgeInsets.only(left: 15.0),
                 scrollDirection: Axis.horizontal,
